@@ -21,7 +21,7 @@ class GameState {
   private processId: number | undefined;
 
   private readonly refreshMillis = 500;
-  private readonly processName = isMac() ? 'MTGA.app/Contents/MacOS/MTGA' : 'MTGA.exe';
+  private readonly processName = isMac() ? 'MTGA.app/Contents/MacOS/MTGA' : 'C:\Program Files\Wizards of the Coast\MTGA\MTGA.exe';
 
   constructor() {
     this.startTimeMillis = Date.now();

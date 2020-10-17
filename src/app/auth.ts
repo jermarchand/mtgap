@@ -43,6 +43,7 @@ export function setCreds(source: string): void {
         fontcolor: 0,
         detach: false,
         hidemain: false,
+        interactive: true
       };
       settingsStore.save();
     }

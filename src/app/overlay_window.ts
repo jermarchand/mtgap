@@ -32,6 +32,7 @@ export function createOverlayWindow(): BrowserWindow {
       sandbox: true,
       webSecurity: true,
       preload: OVERLAY_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      worldSafeExecuteJavaScript: true,
     },
     show: false,
     frame: false,
